@@ -1,0 +1,120 @@
+html, body {
+  background-color: #ffffff; 
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.site-layout-content {
+  background: #ffffff;
+  padding: 24px;
+  margin: 0;
+  min-height: 280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;position: relative;
+  height: 90vh; 
+}
+
+.home-content {
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 800px;
+}
+
+.home-title {
+  font-size: 36px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #1890ff;
+}
+
+.home-description {
+  font-size: 18px;
+  margin-bottom: 40px;
+  text-align: center;
+  color: #555;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header .ant-menu {
+  border-bottom: none;
+  display: flex;
+  justify-content: flex-start;
+  flex: 1;
+}
+
+.header .ant-menu-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+  font-size: 16px;
+  color: #fff;
+  transition: background 0.3s;
+}
+
+.header .ant-menu-item:hover {
+  background: #40a9ff;
+}
+
+.header .ant-menu-item-selected {
+  background: #1890ff !important;
+  font-weight: bold;
+}
+
+.logout-button {
+  margin-left: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  color: #fff;
+  background: #ff4d4f;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.logout-button:hover {
+  background: #ff7875;
+}
+.welcome-gif {
+  width: 300px; 
+  height: auto;
+  margin-top: 20px;
+}
+
+.corner-image {
+  width: 200px; 
+  height: auto;
+  position: absolute;
+}
+
+.aj {
+  top: 85px;
+  left: 10px;
+}
+
+.ps {
+  top: 85px;
+  right: 10px;
+}
+
+.sx {
+  bottom: 85px;
+  left: 10px;
+}
+
+.thy {
+  bottom: 85px;
+  right: 10px;
+}

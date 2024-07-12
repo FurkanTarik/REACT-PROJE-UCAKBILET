@@ -1,0 +1,39 @@
+.flight-options-container {
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.flight-details {
+  margin-bottom: 20px;
+}
+
+.flight-options {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.flight-option {
+  background: #f0f2f5;
+  padding: 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+  width: 30%; 
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.flight-option:hover {
+  background: #e6f7ff;
+}
+
+.flight-option h2 {
+  margin-bottom: 10px;
+}
+
+.flight-option p {
+  margin: 0;
+}

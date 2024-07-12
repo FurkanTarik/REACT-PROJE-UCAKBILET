@@ -1,0 +1,23 @@
+.tesekkur-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #ece9e6, #ffffff);
+    text-align: center;
+  }
+  
+  .tesekkur-container h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #1890ff;
+  }
+  
+  .tesekkur-container p {
+    font-size: 18px;
+    margin-bottom: 40px;
+    color: #555;
+  }
+  

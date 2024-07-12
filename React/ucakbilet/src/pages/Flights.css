@@ -1,0 +1,44 @@
+.flights-container {
+  padding: 40px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  max-width: 900px;
+  margin: 40px auto;
+}
+
+.flights-form {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.ant-form-item {
+  margin-bottom: 20px;
+}
+
+.ant-form-item-label > label {
+  color: #333;
+  font-weight: bold;
+}
+
+.ant-input,
+.ant-select-selector,
+.ant-picker {
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.ant-btn-primary {
+  background-color: #1890ff;
+  border-color: #1890ff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.ant-btn-primary:hover {
+  background-color: #40a9ff;
+  transform: scale(1.05);
+}

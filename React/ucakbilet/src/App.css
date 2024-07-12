@@ -1,0 +1,12 @@
+.layout {
+  min-height: 100vh;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.logout-button {
+  margin-left: auto;
+}

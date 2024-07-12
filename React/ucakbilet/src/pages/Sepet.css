@@ -1,0 +1,61 @@
+
+.sepet-container {
+    background: #f9f9f9;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 40px auto;
+    text-align: left;
+  }
+  
+  .sepet-title {
+    font-size: 36px;
+    color: #1890ff;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .flight-details {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .flight-details h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .flight-details p {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #555;
+  }
+  
+  .flight-details p strong {
+    color: #333;
+  }
+  
+  .payment-button {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    color: #fff;
+    background: #52c41a;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    text-align: center;
+  }
+  
+  .payment-button:hover {
+    background: #73d13d;
+  }
+  
